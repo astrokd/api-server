@@ -1,11 +1,10 @@
-# lab-08-mongoDB-server
-labs 7 through 10
+# api server
 
 Full CRUD express server api connecting to MongoDB with mongoose.
 
 - [Final PR](https://github.com/kevindreyer-CF401JSd/lab-08-mongoDB-server/pull/3)
 
-## simple api
+## checklist
 
 - [x] Express Server Connected to MongoDB
 - [x] Morgan Logger
@@ -39,10 +38,14 @@ Used this help with error handling
 
 ## Test routes
 
-http get :3000/api/v1/authors
+Routes: authors and categories
 
-http post :3000/api/v1/authors name="test author name" handle="TAN"
+`http get :3000/api/v1/authors`
 
-http delete :3000/api/v1/authors/5e4dd109d147d22523bd5661
+`http post :3000/api/v1/authors name="test author name" handle="TAN"`
 
-http put :3000/api/v1/authors/5e4dd028d147d22523bd5660 name="Test Author" handle="TA"
+`http delete :3000/api/v1/authors/5e4dd109d147d22523bd5661`
+
+`http put :3000/api/v1/authors/5e4dd028d147d22523bd5660 name="Test Author" handle="TA"`
+
+
